@@ -31,9 +31,13 @@ Project is created with:
 
 ## Connections
 Connection pins:
+
 5V:  Power (red)
+
 Gnd: Ground (black)
+
 13,10,7,5,3 : Digital Signals (orange, yellow, green, blue, purple)
+
 A0,A1,A2,A3,A4 : Analog Signals (violet, brown, grey, cyan,pink)
 
 ## Block diagram & simulation
