@@ -17,7 +17,7 @@ This project is to control 5 servo motors using Arduino UNO R3 simulated with TI
 ## Technologies
 Project is created with:
 * Arduino IDE 1.18.15 [To Downloud](https://www.arduino.cc/en/software)
-* ATODESK TINKERCAD [Open](https://www.tinkercad.com/)
+* AUTODESK TINKERCAD [Open](https://www.tinkercad.com/)
 	
 ## Components required
 1. Arduino ANO
@@ -31,8 +31,11 @@ Project is created with:
 ### 1-servo motor rotate 90 degrees . [see here](https://www.tinkercad.com/things/gbEAiV1jBww-task-12-/editel?sharecode=BJKBPih72RmLoE9rHIyFUbfSYzqZ60Z83fKnogQJ0Lg)
 
 ![1](https://user-images.githubusercontent.com/64277741/122782880-c02eb000-d2b9-11eb-8eb7-d6fee3be6355.PNG)
+Figure (1): Servo Motor at initial value (0 degree)
 after 1 sec
 ![1 2](https://user-images.githubusercontent.com/64277741/122783332-24ea0a80-d2ba-11eb-81ef-cee1f5e9950c.PNG)
+Figure (2): Servo Motor at 90 degrees 
+
 #### The Code 
 `#include <Servo.h> 
  
@@ -84,9 +87,13 @@ Servo5.write(0);
 
 ### 2-servo motor rotate 90 degrees and back to 0 degree after 3 sec .[see here ](https://www.tinkercad.com/things/gbPPDKDpC4S-task-12-servo-motor-0-90/editel?sharecode=F5nGzvf_Q4hBc8hK6pDw1buUxTyYmv8P1hEopJZUgGc)
 ![1](https://user-images.githubusercontent.com/64277741/122786121-a5116f80-d2bc-11eb-9a95-e5d2b8a3b9ab.PNG)
-after 3 sec ![1 2](https://user-images.githubusercontent.com/64277741/122786155-ae9ad780-d2bc-11eb-8f7c-c81f11a682b0.PNG)
+Figure (3): Servo Motor at initial value (0 degree)
 
+after 3 sec ![1 2](https://user-images.githubusercontent.com/64277741/122786155-ae9ad780-d2bc-11eb-8f7c-c81f11a682b0.PNG)
+Figure (4): Servo Motor at 90 degrees
 afrer 6 sec back to 0 ![1](https://user-images.githubusercontent.com/64277741/122786121-a5116f80-d2bc-11eb-9a95-e5d2b8a3b9ab.PNG)
+Figure (5): Servo Motor back from 90 to 0 degree
+
 #### The code 
 `#include <Servo.h> 
  
@@ -140,7 +147,11 @@ Servo5.write(0);
 ### 3- Control multiple servo motors using Potentiometer [see here](https://www.tinkercad.com/things/jBKW8pofJhZ-task-3-control-servo-motor-using-potentiometer/editel?sharecode=FqY5TjQ9On_IY1DgVje0gg_ci8Gl3PQnv6i9iKbzVOA)
 at begin
 ![3](https://user-images.githubusercontent.com/64277741/122786908-75169c00-d2bd-11eb-9624-60cee51a1ea6.PNG)
+Figure (6): Five Servo Motor with Five Potentiometers
+
 after start simulation ![4](https://user-images.githubusercontent.com/64277741/122787141-b3ac5680-d2bd-11eb-97f9-08a8c668f9b1.PNG)
+Figure (7): Changing the angles of Servo Motors according to change the angles of Potentiometers
+
 #### The Code 
 `#include <Servo.h>
 
