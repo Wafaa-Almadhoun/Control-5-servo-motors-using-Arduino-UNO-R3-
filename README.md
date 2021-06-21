@@ -27,7 +27,7 @@ Project is created with:
 5. bettrey  5 volt
 6.breadboard
 
-## Block diagram
+## Block diagram & simulation
 ### 1-servo motor rotate 90 degrees . [see here](https://www.tinkercad.com/things/gbEAiV1jBww-task-12-/editel?sharecode=BJKBPih72RmLoE9rHIyFUbfSYzqZ60Z83fKnogQJ0Lg)
 
 ![1](https://user-images.githubusercontent.com/64277741/122782880-c02eb000-d2b9-11eb-8eb7-d6fee3be6355.PNG)
