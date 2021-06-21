@@ -23,7 +23,7 @@ Project is created with:
 1. Arduino ANO
 2. 5 servo motors MG995
 3. jumper wirs
-4. 5 potenciometro 10 K ohm 
+4. 5 potontial meters 10 K ohm 
 5. bettrey  5 volt
 6.breadboard
 
